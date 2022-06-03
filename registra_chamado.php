@@ -21,4 +21,4 @@
     fclose($arquivo);
 
     //Redirecionando apos construcao do arquivo (Feedback visual para sucesso com get)
-    header('Location: abrir_chamado.php');
+    header('Location: abrir_chamado.php?sucesso=sim');

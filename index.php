@@ -41,21 +41,21 @@
                 </div>
 
                 
-                <?  if(isset($_GET['login']) && $_GET['login'] == 'erro') { ?>
+                <?php if(isset($_GET['login']) && $_GET['login'] == 'erro') { ?>
 
                     <div class="text-danger">
                         Usuario ou Senha Invalido(s)
                     </div>
 
-                <?  }  ?>
+                <?php }  ?>
 
-                <?  if(isset($_GET['login']) && $_GET['login'] == 'erro2') { ?>
+                <?php if(isset($_GET['login']) && $_GET['login'] == 'erro2') { ?>
 
                     <div class="text-danger">
                         Preencha Email e Senha para acessar as outras paginas
                     </div>
 
-                <?  }  ?>
+                <?php }  ?>
 
                 <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
               </form>

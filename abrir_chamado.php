@@ -35,6 +35,14 @@
     <div class="container">    
       <div class="row">
 
+      <?php  if(isset($_GET['sucesso']) && $_GET['sucesso'] == 'sim') { ?>
+
+        <div class="bg-dark pt-2 text-white d-flex justify-content-center mt-4">
+            <h5>Chamado aberto</h5>
+        </div>
+
+      <?php } ?>
+
         <div class="card-abrir-chamado">
           <div class="card">
             <div class="card-header">
