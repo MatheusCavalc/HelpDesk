@@ -6,7 +6,7 @@
 
 :black_circle: Maior desafio na construção da aplicação foi a recuperação dos chamados abertos
 
-## Execucao
+## Execução
 
 :black_circle: Para executar a aplicação é necessário apenas "php -S localhost:porta"
 
