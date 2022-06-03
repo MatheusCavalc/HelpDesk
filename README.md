@@ -4,12 +4,16 @@
 
 :black_circle: Feito totalmente em php
 
-:black_circle: Maior desafio na construcao da aplicacao foi a recuperacao dos chamados abertos
+:black_circle: Maior desafio na construção da aplicação foi a recuperação dos chamados abertos
 
 ## Execucao
 
-:black_circle: Para executar a aplicacao e necessario apenas "php -S localhost:porta"
+:black_circle: Para executar a aplicação é necessário apenas "php -S localhost:porta"
 
 ## Sobre o funcionamento
 
-:black_circle: A aplicacao inicia com um pequeno login, onde usuarios e senhas de exemplo estao localizados em valida_login.php, que leva a home onde e possivel abrir ou consultar chamados
+:black_circle: A aplicação inicia com um pequeno login, onde usuários e senhas de exemplo estão localizados em valida_login.php, que leva a home onde é possível abrir ou consultar chamados
+
+:black_circle: Chamados abertos são enviados para registra_chamado.php onde é feita a construção do chamado em frase (utilizando str_replace() previno a repetição do sinal de separação da frase) e envio para arquivo.hd
+
+:black_circle: Para recuperar os chamados é necessário um loop em arquivo.hd a cada final de linha (chamado), leitura de cada linha é atribuída a uma variável que logo depois foi atribuída a um array. Utilizando esse array é possível recuperar cada campo preenchido e exibi-los por meio de um loop
