@@ -1,7 +1,9 @@
 # HelpDesk
 
 :black_circle: Aplicação de suporte a usuários para solução de problemas com equipamentos eletrônicos
+
 :black_circle: Feito totalmente em php
+
 :black_circle: Maior desafio na construcao da aplicacao foi a recuperacao dos chamados abertos
 
 ## Execucao
