@@ -43,6 +43,14 @@
 
       <?php } ?>
 
+      <?php  if(isset($_GET['sucesso']) && $_GET['sucesso'] == 'nao') { ?>
+
+        <div class="bg-dark pt-2 text-white d-flex justify-content-center mt-4">
+            <h5>Preencha todos os campos para abrir um chamado</h5>
+        </div>
+
+      <?php } ?>
+
         <div class="card-abrir-chamado">
           <div class="card">
             <div class="card-header">
@@ -61,7 +69,7 @@
                     <div class="form-group">
                       <label>Categoria</label>
                       <select name="categoria" class="form-control">
-                        <option>Criação Usuário</option>
+                        <option value="" disabled selected>Selecione a Categoria</option>
                         <option>Impressora</option>
                         <option>Hardware</option>
                         <option>Software</option>
