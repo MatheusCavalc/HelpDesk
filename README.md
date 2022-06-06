@@ -8,7 +8,7 @@
 
 ## Execução
 
-:black_circle: Para executar a aplicação é necessário apenas "php -S localhost:porta"
+:black_circle: Para executar a aplicação é necessário apenas o servidor embutido do php
 
 ## Sobre o funcionamento
 
